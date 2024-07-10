@@ -1,7 +1,7 @@
 
 
 target 'HeroExamples' do
-  platform :ios, '12.1'
+  platform :ios, '12.4'
   use_frameworks!
   pod 'CollectionKit', :inhibit_warnings => true
 
@@ -11,6 +11,6 @@ target 'HeroExamples' do
 end
 
 target 'HeroTvOSExamples' do
-  platform :tvos, '12.1'
+  platform :tvos, '12.4'
   use_frameworks!
 end
