@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Hero",
     platforms: [
-        .tvOS(.v10),
-        .iOS(.v10)
+        .tvOS(.v12),
+        .iOS(.v12)
     ],
     products: [
         .library(name: "Hero",
