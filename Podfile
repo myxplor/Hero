@@ -1,7 +1,7 @@
 
 
 target 'HeroExamples' do
-  platform :ios, '12.4'
+  platform :ios, '13'
   use_frameworks!
   pod 'CollectionKit', :inhibit_warnings => true
 
