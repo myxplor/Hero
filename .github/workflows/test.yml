@@ -59,8 +59,8 @@ jobs:
           scheme: ${{ matrix.run-config.scheme }}
           workspace: Hero.xcworkspace
 
-      - name: Upload Code Coverage
-        uses: codecov/codecov-action@v3
-        if: ${{ matrix.run-config.code-coverage }}
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+      # - name: Upload Code Coverage
+      #   uses: codecov/codecov-action@v3
+      #   if: ${{ matrix.run-config.code-coverage }}
+      #   with:
+      #     token: ${{ secrets.CODECOV_TOKEN }}
